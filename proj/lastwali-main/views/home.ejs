@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="formb">
+        <h2>Please put correct informatin ad valid name (Pakistani nation)</h2>
+        <form action="" method="post">
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="address" placeholder="address">
+            <label for="city">Choose a City:</label>
+
+            <select id="city" name="city">
+
+                <option value="Abbottabad" selected>Aboottabad</option>
+                <option value="Mansehra">Mansehra</option>
+                <option value="Taxila">Taxila</option>
+                <option value="Haripur" >Haripur</option>
+            </select>
+            <!-- <label for="cars">Gender:</label> -->
+
+            <div class="gen">
+                <label for="gender">Gender:</label><br>
+
+                <input type="radio" id="html" name="gender" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="css" name="gender" value="Female">
+                <label for="female">Female</label><br>
+            </div>
+            <label for="amu">Amount of Food in KG (between 0 and 10):</label>
+            <input type="range" id="amu" name="amu" min="0" max="10">
+            
+            <input type="submit" class="btn">
+        </form>
+    </div>
+</body>
+
+</html>
